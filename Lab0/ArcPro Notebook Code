@@ -1,0 +1,11 @@
+#ArcPy Buffer Around Routes
+arcpy.analysis.Buffer(
+    in_features="Memorial_Routes_in_Minnesota",
+    out_feature_class=r"\\Mac\Home\Documents\ArcGIS\Projects\Lab00\Lab00.gdb\Memorial_Routes_Buffer_Notebook",
+    buffer_distance_or_field="5 Miles",
+    line_side="FULL",
+    line_end_type="ROUND",
+    dissolve_option="NONE",
+    dissolve_field=None,
+    method="PLANAR"
+)
